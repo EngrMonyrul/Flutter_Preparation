@@ -1,3 +1,7 @@
 enum FontOptions {
-  poppins;
+  manrope;
+
+  String get text => switch (this) {
+        manrope => "Manrope",
+      };
 }
